@@ -16,19 +16,19 @@ The Minimum Viable Product must be completed in three hours.
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your _Team Lead_ as collaborator on Github.
-- [ ] Clone your forked version of the Repository.
-- [ ] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
-- [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `firstName-lastName`.
+- [✓] Create a forked copy of this project.
+- [✓] Add your _Team Lead_ as collaborator on Github.
+- [✓] Clone your forked version of the Repository.
+- [✓] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
+- [✓] Implement the project on this Branch, committing changes regularly.
+- [✓] Push commits: git push origin `firstName-lastName`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge `firstName-lastName` Branch into master on **your fork, don't make Pull Requests against Lambda's repository**.
-- [ ] Please don't merge your own pull request.
-- [ ] Add your _Team Lead_ as a Reviewer on the Pull-request
-- [ ] Your _Team Lead_ will count the challenge as done by merging the branch into _master_.
+- [✓] Submit a Pull-Request to merge `firstName-lastName` Branch into master on **your fork, don't make Pull Requests against Lambda's repository**.
+- [✓] Please don't merge your own pull request.
+- [✓] Add your _Team Lead_ as a Reviewer on the Pull-request
+- [✓] Your _Team Lead_ will count the challenge as done by merging the branch into _master_.
 
 ## Commits
 
@@ -38,15 +38,16 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
-- [ ] Mention two parts of Express that you learned about this week.
-
-- [ ] Describe Middleware?
-
-- [ ] Describe a Resource?
-
-- [ ] What can the API return to help clients know if a request was successful?
-
-- [ ] How can we partition our application into sub-applications?
+- [✓] Mention two parts of Express that you learned about this week.
+  express allows us to run asinc functions and api servers. we can create routes with express that keep our code organized
+- [✓] Describe Middleware?
+  middleware is functions that run after request and before response, allow us to do validations.
+- [✓] Describe a Resource?  
+  a resource is a collection of data sent accross the network through requests and responses
+- [✓] What can the API return to help clients know if a request was successful?
+  a status code and a response with a succsess message.
+- [✓] How can we partition our application into sub-applications?
+  using express.Router(s).
 
 ## Minimum Viable Product
 
